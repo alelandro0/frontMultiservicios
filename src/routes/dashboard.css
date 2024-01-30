@@ -1,0 +1,28 @@
+.perfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.publiText{
+    width: 100vh;
+    margin: 6%;
+}
+.textarea{
+    width: 100%;
+}
+
+.profile-image{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    clip-path: circle(50%);
+   
+    
+}
+.profile-header{
+    width: 200px;
+    height: 200px;
+    clip-path: circle(50%);
+    background-color: aliceblue;
+    margin: 50px;
+}
