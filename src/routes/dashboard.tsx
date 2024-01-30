@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useAuth } from "../Autenticacion/AutProvider";
 import PortalLayout from "../layout/PortalLayout";
 import "./dashboard.css";
-import  {uploadFile}  from '../../../firebase/storageService.mjs';
+import  {uploadFile}  from '../../../adelantProyect/firebase/storageService.mjs';
 
 
 interface UserProfile {
